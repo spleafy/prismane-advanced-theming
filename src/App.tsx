@@ -1,5 +1,4 @@
 import { Stack, Button } from "@prismane/core";
-import NewButton from "./NewButton";
 
 function App() {
   return (
@@ -8,7 +7,6 @@ function App() {
       <Button variant="secondary" color="base">
         Secondary Button
       </Button>
-      {/* <NewButton>New Button</NewButton> */}
     </Stack>
   );
 }
